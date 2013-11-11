@@ -49,7 +49,7 @@ public class EightQueens {
 			// for each such good placement:
 			if (isGoodMove(board, row, col)) {
 				board[row][col] = 1;
-				//	if this is the last row, then print this solution.
+				//	if this is the last row, it is a completed solution, print it.
 				if (row == board_size - 1) {
 					num_solns++;
 					printBoard(board);					
