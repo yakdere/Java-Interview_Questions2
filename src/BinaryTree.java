@@ -1,4 +1,6 @@
 
+
+
 /**
  * @author yakdere
  * This is not Binary Search Tree
@@ -7,8 +9,8 @@
 
 public class BinaryTree {
 	BinaryNode root = null;
-	
-	BinaryTree() { 	}
+	BinaryTree() { 
+	}
 	
 
 	public void  InsertLevelbyLevel(int data) {
@@ -47,6 +49,7 @@ public class BinaryTree {
 		return InsertLevelByLevel(curr_node.lchild, curr_level+1, new_node, left_most_node, left_most_level) ||
 				InsertLevelByLevel(curr_node.rchild, curr_level+1, new_node, left_most_node, left_most_level);
 	}
+		
 	
 	public int getLevel() {
 		return getLevel(root);
