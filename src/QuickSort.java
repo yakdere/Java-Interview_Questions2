@@ -34,7 +34,6 @@ public class QuickSort {
 				i++;
 				j--;
 			}
-			//burayi anlamadim ??? Recursion
 			if(low < j) {
 				recQuickSort(low, j);
 			}
@@ -52,5 +51,4 @@ public class QuickSort {
 		list[i] = list[j];
 		list[j] = temp;		
 	}
-
 }

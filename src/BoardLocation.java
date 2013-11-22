@@ -1,4 +1,4 @@
-
+//This class is created for Eight Queens Class
 public class BoardLocation {
 	public int row;
 	public int col;
